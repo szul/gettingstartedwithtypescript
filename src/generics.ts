@@ -11,3 +11,5 @@ class List<T> {
     }
 }
 
+const person = new List<Person>();
+person.filters.lastname = 'szul';
