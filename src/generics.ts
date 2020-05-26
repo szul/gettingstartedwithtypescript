@@ -1,7 +1,7 @@
 interface Person {
-    firstname: string;
-    middlename: string;
-    lastname: string;
+    firstName: string;
+    middleName: string;
+    lastName: string;
 }
 
 class List<T> {
@@ -11,5 +11,6 @@ class List<T> {
     }
 }
 
-const person = new List<Person>();
-person.filters.lastname = 'szul';
+const personList = new List<Person>();
+
+personList.filters.lastName = 'Szul';
